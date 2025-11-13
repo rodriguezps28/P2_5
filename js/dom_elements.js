@@ -9,7 +9,7 @@ let w_r=20;
 let h_r=20;
 
 function setup() {
-  canvas=createCanvas(400, 400);
+  canvas=createCanvas(windowWidth, windowHeight);
   input_txt=createInput('read 🔮me');
   slider_value=createSlider(1,100,10);
   slider_value.position(200,20);
@@ -33,4 +33,5 @@ function deviceShaken() {
   value_r=random(255);
   value_g=random(255);
   value_b=random(255);
+
 }
